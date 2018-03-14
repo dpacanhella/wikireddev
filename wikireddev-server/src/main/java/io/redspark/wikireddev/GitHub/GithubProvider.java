@@ -21,7 +21,7 @@ public class GithubProvider {
 	
 	private LocalDateTime checkedIn;
 	
-	private List<GithubToken> tokens = Arrays.asList(new GithubToken("brunoqueiroz","c7be93d54187f1111f89f870542ca49587d64f3f"));
+	private List<GithubToken> tokens = Arrays.asList(new GithubToken("brunoqueiroz","c7be93d54187f1111f89f870542ca49587d64f3f234"));
 	
 	private Queue<GithubToken> queue = new LinkedList<GithubToken>(tokens);
 	
